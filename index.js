@@ -18,3 +18,6 @@ app.use('/APi', require('./APi/post'));
 app.listen(9977, () => {
     console.log('chalu thay gayu....')
 });
+app.use('/', (req, res) => {
+    return res.send("backend start....");
+})
