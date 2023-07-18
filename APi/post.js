@@ -3,7 +3,7 @@ const app = express();
 const router = express.Router();
 
 // Schema Added...
-const TodoSchema = require('../MODEL/Schema');
+`const TodoSchema = require('../MODEL/Schema');`
 
 // post create a todo
 router.post('/add-todo', async (req, res) => {
